@@ -1,3 +1,9 @@
+<?php
+
+$urlweb = "http://localhost/ales0sa-mp-commerce-php/mp-ecommerce-php/";
+
+?>
+
 <!DOCTYPE html>
 <html class="supports-animation supports-columns svg no-touch no-ie no-oldie no-ios supports-backdrop-filter as-mouseuser" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
@@ -257,7 +263,7 @@
                                                 $15.000
                                             </div>
                                         </div>
-                                        <form action="/detail.php" method="get">
+                                        <form action="<?php echo $urlweb."detail.php"; ?>" method="get">
                                             <input type="hidden" name="img" value="./assets/samsung-galaxy-s9-xxl.jpg">
                                             <input type="hidden" name="title" value="Samsung Galaxy S9">
                                             <input type="hidden" name="price" value="15000">
@@ -312,7 +318,7 @@
                                                 $10.000
                                             </div>
                                         </div>
-                                        <form action="/detail.php" method="get">
+                                        <form action="<?php echo $urlweb."detail.php"; ?>" method="get">
                                             <input type="hidden" name="img" value="./assets/l6g6.jpg">
                                             <input type="hidden" name="title" value="LG G6">
                                             <input type="hidden" name="price" value="10000">
@@ -370,7 +376,7 @@
                                                 </span>
                                             </div>
                                         </div>
-                                        <form action="/detail.php" method="get">
+                                        <form action="<?php echo $urlweb."detail.php"; ?>" method="get">
                                             <input type="hidden" name="img" value="./assets/u_10168742.jpg">
                                             <input type="hidden" name="title" value="iPhone 8">
                                             <input type="hidden" name="price" value="16000">
@@ -427,7 +433,7 @@
                                                 </span>
                                             </div>
                                         </div>
-                                        <form action="/detail.php" method="get">
+                                        <form action="<?php echo $urlweb."detail.php"; ?>" method="get">
                                             <input type="hidden" name="img" value="./assets/motorola-moto-g5-plus-1.jpg">
                                             <input type="hidden" name="title" value="Motorola G5">
                                             <input type="hidden" name="price" value="9000">
@@ -477,7 +483,7 @@
                                                 $8.000
                                             </div>
                                         </div>
-                                        <form action="/detail.php" method="get">
+                                        <form action="<?php echo $urlweb."detail.php"; ?>" method="get">
                                             <input type="hidden" name="img" value="./assets/motorola-moto-g4-3.jpg">
                                             <input type="hidden" name="title" value="Moto G4">
                                             <input type="hidden" name="price" value="8000">
@@ -528,7 +534,7 @@
                                                 </span>
                                             </div>
                                         </div>
-                                        <form action="/detail.php" method="get">
+                                        <form action="<?php echo $urlweb."detail.php"; ?>" method="get">
                                             <input type="hidden" name="img" value="./assets/003.jpg">
                                             <input type="hidden" name="title" value="Sony Xperia XZ2">
                                             <input type="hidden" name="price" value="10000">
