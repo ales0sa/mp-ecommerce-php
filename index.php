@@ -1,7 +1,7 @@
 <?php
 
-$urlweb = "http://localhost/ales0sa-mp-commerce-php/mp-ecommerce-php/";
-
+//$urlweb = "http://localhost/ales0sa-mp-commerce-php/mp-ecommerce-php/";
+$urlweb = "https://ales0sa-mp-commerce-php.herokuapp.com";
 ?>
 
 <!DOCTYPE html>
