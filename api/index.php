@@ -60,14 +60,14 @@ $preference->payer = $payer;
 
 
 $preference->back_urls = array(
-	"success" => $urlweb.'succ/',
-	"failure" => $urlweb.'fail/',
-	"pending" => $urlweb.'pend/',
+	"success" => $urlweb.'/succ/',
+	"failure" => $urlweb.'/fail/',
+	"pending" => $urlweb.'/pend/',
 );
 
 $preference->external_reference = "alesosa@gmail.com";
 $preference->auto_return = "approved";
-$preference->notification_url = $urlweb."ipn";
+$preference->notification_url = $urlweb."/ipn";
 $preference->items = array($item);
 $preference->save();
 
