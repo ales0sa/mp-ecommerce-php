@@ -3,28 +3,18 @@
 echo $_POST['pref'];
 
 
-		$code = $_POST['pref'];
-		$redirect_uri = env('MP_URI');//"https://construyendo.test/marketplace/";
-		$client_secret = env('MP_SECRET');
-
-		$fields = [
-				    'client_secret' => $client_secret, 
-				    'grant_type' => 'authorization_code',
-				    'code' => $code,
-				    'redirect_uri' => $redirect_uri
-		];
 
 
 		$php_curl = curl_init();
 		curl_setopt_array($php_curl, array(
-		    CURLOPT_URL => "https://api.mercadopago.com/v1/payments/{$code}",
+		    CURLOPT_URL => "https://api.mercadopago.com/v1/payments/471923173",
 		    CURLOPT_RETURNTRANSFER => true,
 		    CURLOPT_ENCODING => "",
 		    CURLOPT_MAXREDIRS => 10,
 		    CURLOPT_TIMEOUT => 30000,
 		    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 		    CURLOPT_CUSTOMREQUEST => "GET",
-		    CURLOPT_POSTFIELDS => json_encode($fields),
+
 		    CURLOPT_HTTPHEADER => array(
 		      // Set POST here requred headers
 		        "accept: */*",
