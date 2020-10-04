@@ -1,3 +1,4 @@
+
 <?php
 
 $json = file_get_contents('php://input');
@@ -26,7 +27,8 @@ if ($_GET["topic"] == "payment") {
     fclose($logFile);
 }
 
-   
+file_put_contents("log3.txt",json_encode($_POST));
+
 ob_clean();
 header("HTTP/1.1 200 OK");
 
