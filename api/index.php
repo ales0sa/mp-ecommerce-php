@@ -60,9 +60,9 @@ $preference->payer = $payer;
 
 
 $preference->back_urls = array(
-	"success" => $urlweb.'/success/',
-	"failure" => $urlweb.'/fail/',
-	"pending" => $urlweb.'/pend/',
+	"success" => $urlweb.'success.php',
+	"failure" => $urlweb.'fail.php',
+	"pending" => $urlweb.'pend.php',
 );
 
 $preference->external_reference = "alesosa@gmail.com";
