@@ -67,7 +67,7 @@ $preference->back_urls = array(
 
 $preference->external_reference = "alesosa@gmail.com";
 $preference->auto_return = "approved";
-$preference->notification_url = $urlweb."/ipn";
+$preference->notification_url = $urlweb."ipn.php";
 $preference->items = array($item);
 $preference->save();
 
