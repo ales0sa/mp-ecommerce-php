@@ -60,7 +60,7 @@ $preference->payer = $payer;
 
 
 $preference->back_urls = array(
-	"success" => $urlweb.'/succ/',
+	"success" => $urlweb.'/success/',
 	"failure" => $urlweb.'/fail/',
 	"pending" => $urlweb.'/pend/',
 );
