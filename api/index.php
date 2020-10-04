@@ -29,7 +29,7 @@ $item->title = $_POST['title'];
 $item->quantity = $_POST['unit'];
 $item->unit_price = $_POST['price'];
 $item->description = "Dispositivo móvil de Tienda e-commerce";
-$item->picture_url = $urlweb.'/'.$_POST['img'];
+$item->picture_url = $_POST['img'];///$urlweb.'/'.$_POST['img'];
 
 //var_dump($item->picture_url);
 

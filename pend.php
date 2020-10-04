@@ -65,7 +65,7 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div style="padding: 100px;">
                 <h2>El pago se encuentra pendiente </h2>
                 <a href="/"> Volver al sitio </a>
                 

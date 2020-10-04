@@ -61,7 +61,7 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div style="padding: 100px;">
                 <h2>Gracias por tu compra</h2>
                 <?php
                 echo "<p>collection_id: ".$_GET["collection_id"]."</p>";
@@ -74,6 +74,7 @@
                 echo "<p>processing_mode: ".$_GET["processing_mode"]."</p>";
                 echo "<p>merchant_account_id: ".$_GET["merchant_account_id"]."</p>";
                 ?>
+                                <p><a href="/"> Volver al sitio </a></p>
             </div>
         </div>
         <div role="alert" class="as-loader-text ally" aria-live="assertive"></div>

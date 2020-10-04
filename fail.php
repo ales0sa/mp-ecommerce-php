@@ -66,7 +66,9 @@
                 </div>
             </div>
             <div>
-                <h2>El pago fallo. </h2>
+                <h2>No pudimos completar el pago... </h2>
+
+
                 <a href="/"> Volver al sitio </a>
                 
             </div>
