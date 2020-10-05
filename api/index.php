@@ -11,7 +11,7 @@ MercadoPago\SDK::setIntegratorId("dev_24c65fb163bf11ea96500242ac130004");
 
 
 $payer = new MercadoPago\Payer();
-
+$payer->id = 471923173;
 $payer->name = "Lalo";
 $payer->surname = "Landa";
 $payer->email = "test_user_63274575@testuser.com";
@@ -55,8 +55,7 @@ $item->title = $_POST['title'];
 $item->quantity = $_POST['unit'];
 $item->unit_price = $_POST['price'];
 $item->description = "Dispositivo móvil de Tienda e-commerce";
-$item->picture_url = $urlweb.$_POST['img'];
-$item->external_reference = "alesosa@gmail.com";
+$item->picture_url = url(substr($_POST["img"], 1));
 //var_dump($item->picture_url);
 
 
@@ -70,9 +69,9 @@ $preference->back_urls = array(
 	"pending" => $urlweb.'pend.php',
 );
 
-
+$preference->external_reference = "alesosa@gmail.com";
 $preference->auto_return = "approved";
-$preference->notification_url = $urlweb."hook.php";
+$preference->notification_url = $urlweb."hook.php?source_news=webhooks";
 $preference->items = array($item);
 $preference->save();
 
