@@ -1,7 +1,8 @@
 <?php
 
 //$urlweb = "http://localhost/ales0sa-mp-commerce-php/mp-ecommerce-php/";
-$urlweb = "https://ales0sa-mp-commerce-php.herokuapp.com/";
+//$urlweb = "https://ales0sa-mp-commerce-php.herokuapp.com/";
+$urlweb = "http://localhost/ales0sa-mp-commerce-php/mp-ecommerce-php/";
 ?>
 
 <!DOCTYPE html>
@@ -434,7 +435,7 @@ $urlweb = "https://ales0sa-mp-commerce-php.herokuapp.com/";
                                             </div>
                                         </div>
                                         <form action="<?php echo $urlweb."detail.php"; ?>" method="get">
-                                            <input type="hidden" name="img" value="https://cdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g5-plus-1.jpg">
+                                            <input type="hidden" name="img" value="./assets/motorola-moto-g5-plus-1.jpg">
                                             <input type="hidden" name="title" value="Motorola G5">
                                             <input type="hidden" name="price" value="9000">
                                             <input type="hidden" name="unit" value="1">

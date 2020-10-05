@@ -129,10 +129,10 @@ include('./api/index.php');
                                             </h3>
                                         </div>
                                         <h3 >
-                                           Cantidad: <?php echo $_POST['unit'] ?>
+                                            <?php echo $_POST['price'] ?>
                                         </h3>
                                         <h3 >
-                                            <?php echo "$" . $_POST['price'] ?>
+                                            <?php echo "$" . $_POST['unit'] ?>
                                         </h3>
                                     </div>
 
